@@ -30,7 +30,7 @@ export default function ConfirmsPassword({ onConfirmed, children }) {
                 {children}
             </span>
             {show && (
-                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-40 z-50">
+                <div className="fixed inset-0 flex items-center justify-center bg-slate-400 bg-opacity-40 z-50">
                     <form
                         onSubmit={handleConfirm}
                         className="bg-white p-6 rounded shadow-md min-w-[300px]"
